@@ -161,6 +161,7 @@ a {
 .image_slider-item img {
     height: 100%;
     border: 3px solid white;
+    z-index: 5;
 }
 
 .slider_link {
