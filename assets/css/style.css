@@ -484,3 +484,12 @@ a {
     justify-content: center;
     padding: 1px 0px;
 }
+
+.watermark {
+    margin: 3vh 0vh;
+    display: block;
+    text-align: center;
+    align-items: 50%;
+    color: white;
+    font-size: 2vh;
+}
