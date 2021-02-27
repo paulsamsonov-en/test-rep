@@ -7,8 +7,8 @@ body {
     line-height: 1.6;
     margin: 0px;
     padding-top: 0px;
-    background-image: radial-gradient(50% 100%, ellipse, #1b1920, transparent, #1b1920);
-    background-image: -webkit-radial-gradient(50% 100%, ellipse, #1b1920, transparent, #1b1920);
+    background: radial-gradient(50% 100%, ellipse, #1b1920, transparent, #1b1920);
+    background: -webkit-radial-gradient(50% 100%, ellipse, #1b1920, transparent, #1b1920);
 }
 
 *,
@@ -141,7 +141,7 @@ a {
     text-transform: uppercase;
     font-size: 59px;
     margin: 0px;
-    padding: auto 0px;
+    padding: 0px 0px;
     text-align: center;
     line-height: 1;
     padding-top: 160px;
@@ -245,7 +245,7 @@ a {
 }
 
 .prise p {
-    margin: 0px 0px;
+    margin: 4vh 0vw;
     font-size: 90px;
     font-weight: bold;
     position: absolute;
@@ -341,17 +341,19 @@ a {
     justify-content: space-around;
 }
 
-.title_velo_1 {
+.title_velo_1 h3 {
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 0px;
+    margin-top: 5vh;
+    align-content: center;
+    justify-content: center;
 }
 
 .subtitle_velo {
     font-size: 11px;
     font-style: italic;
     font-weight: bold;
-    margin-top: 0px;
+    margin: 3vh 0vw;
 }
 
 .price_velo {
@@ -489,7 +491,6 @@ a {
     margin: 3vh 0vh;
     display: block;
     text-align: center;
-    align-items: 50%;
     color: white;
     font-size: 2vh;
 }
