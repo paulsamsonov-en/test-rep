@@ -1,0 +1,132 @@
+    body {
+        background: url(../image/bg/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .main {
+        background: rgba(48, 54, 59, 0.7);
+    }
+    
+    .header_logo {
+        margin: 0 15px;
+        height: 100px;
+        width: auto;
+    }
+    
+    .carousel-caption {
+        bottom: 0px;
+        background: rgba(48, 54, 59, 0.7);
+    }
+    
+    .carousel-item {
+        text-align: center;
+    }
+    
+    .news_block,
+    .crew {
+        padding-top: 40px;
+    }
+    
+    .title_crew {
+        text-align: center;
+        color: black;
+    }
+    
+    .col-lg-4 {
+        margin-bottom: 1.5rem;
+        text-align: center;
+        color: black;
+    }
+    
+    .social {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .social_items {
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo_footer {
+        align-items: center;
+    }
+    
+    .logo_footer img {
+        width: 70px;
+        height: auto;
+    }
+    
+    .social img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .partner {
+        width: 80%;
+        margin: 0px auto;
+        background: white;
+        border-radius: 30px;
+    }
+    
+    .portreit {
+        overflow: hidden;
+        width: 140px;
+        height: 140px;
+    }
+    
+    .portreit img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+    
+    .btn-lg {
+        text-decoration: none;
+    }
+    
+    .item_worck {
+        text-align: center;
+        margin: 0 auto;
+        width: 60%;
+    }
+    
+    .item_worck li {
+        text-align: left;
+    }
+    
+    .news_block {
+        margin: 0 auto;
+    }
+    
+    .ilustration {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .ilustration img {
+        padding: 0px 10px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .image_ill {
+        width: 80%;
+        height: 800px;
+        margin: 0 auto;
+    }
+    
+    .item_worck {
+        font-size: larger;
+    }
+    
+    .slide {
+        height: 650px;
+        overflow: hidden;
+    }
