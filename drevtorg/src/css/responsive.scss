@@ -274,18 +274,20 @@
 
 /*--article_about--*/
 
-.footer_wrap {
-    flex-direction: column;
-    justify-content: space-between;
-    .footer_koord {
-        text-align: center;
-    }
-    .footer_logo {
-        text-align: center;
-    }
-    .footer_telephon {
-        padding: 0;
-        align-items: center;
+@media (max-width:768px) {
+    .footer_wrap {
+        flex-direction: column;
+        justify-content: space-between;
+        .footer_koord {
+            text-align: center;
+        }
+        .footer_logo {
+            text-align: center;
+        }
+        .footer_telephon {
+            padding: 0;
+            align-items: center;
+        }
     }
 }
 

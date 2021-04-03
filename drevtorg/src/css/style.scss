@@ -626,6 +626,7 @@
     .footer_wrap {
         display: flex;
         align-items: center;
+        flex-direction: row;
         justify-content: space-between;
         font-weight: $fw-medium;
         .footer_koord {
